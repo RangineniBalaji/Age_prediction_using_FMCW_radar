@@ -1,11 +1,64 @@
-# Preprocessing of raw data
+# Age Classification Model
 
-when we tried to send the raw data(complex) to fft() using numpy. The results are with Nan and infinity values due to values we read from the bin from provided are too high or too low.
+This project aims to build a machine learning model for classifying age groups based on heart rate and breath rate data.
 
-### After range_fft
-![image](https://github.com/RangineniBalaji/Age_prediction_using_FMCW_radar/assets/83932925/658d0dbf-7aa1-4222-932a-74dceba653fc)
+## Overview
 
-## sample values of bin file
-![image](https://github.com/RangineniBalaji/Age_prediction_using_FMCW_radar/assets/83932925/f697e100-ed6e-4cd3-bd30-47780d2d8e4b)
+The project consists of several components:
+
+- `data_processing.py`: Module for loading and preprocessing the dataset.
+- `model.py`: Module for building, compiling, and training the age classification model.
+- `main.py`: Script to orchestrate the data processing, model training, and evaluation.
+
+## Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your_username/age-classification.git
+    ```
+
+2. Install the required Python packages:
+
+
+## Usage
+
+1. Place your dataset file (`AgeClassified.csv`) in the same directory as the Python files.
+
+2. Run the `main.py` script:
+
+    ```bash
+    python main.py
+    ```
+
+## File Descriptions
+
+### `data_processing.py`
+
+This module contains functions to load and preprocess the dataset.
+
+### `model.py`
+
+This module contains functions to build, compile, and train the age classification model.
+
+### `main.py`
+
+The main script that orchestrates data processing, model training, and evaluation.
+
+## Dataset
+
+The dataset (`AgeClassified.csv`) contains heart rate and breath rate data along with age classifications.
+
+## Model Evaluation
+
+The model is evaluated using the mean squared error (MSE) metric.
+
+## Requirements
+
+- Python 
+- numpy
+- pandas
+- scikit-learn
+- tensorflow
 
 
