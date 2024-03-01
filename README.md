@@ -62,3 +62,31 @@ The model is evaluated using the mean squared error (MSE) metric.
 - tensorflow
 
 
+## Research Paper Citation
+
+The radar dataset used in this project is sourced from the research paper titled "Radar Recorded Child Vital Sign Public Dataset and Deep Learning-Based Age Group Classification Framework for Vehicular Application".
+
+**By Authors:**
+- Sungwon Yoo
+- Shahzad Ahmed
+- Sun Kang
+- Duhyun Hwang
+- Jungjun Lee
+- Jungduck Son
+- Sung Ho Cho
+
+**Paper Link:** [Radar Recorded Child Vital Sign Public Dataset and Deep Learning-Based Age Group Classification Framework for Vehicular Application](https://www.mdpi.com/1424-8220/21/7/2412)
+
+## Dataset Citation
+
+The dataset used in this project is sourced from the research paper titled "Deep Learning Approaches for Air-Writing Using Single UWB Radar".
+
+**By Authors:**
+- Nermine Hendy STEM College, RMIT University, Melbourne, VIC, Australia
+- Haytham M. Fayek STEM College, RMIT University, Melbourne, VIC, Australia
+- Akram Al-Hourani STEM College, RMIT University, Melbourne, VIC, Australia
+
+**Paper Link:** [Deep Learning Approaches for Air-Writing Using Single UWB Radar](https://ieeexplore.ieee.org/document/9768813)
+
+**Dataset Link:** [Dataset for Air-writing rec
+
