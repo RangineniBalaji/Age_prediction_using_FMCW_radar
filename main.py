@@ -1,10 +1,14 @@
-import numpy as np
-from data_processing import load_data, preprocess_data, split_data
-from model import build_model, compile_model, train_model, scale_data
 from sklearn.metrics import mean_squared_error
+from data_processing import load_data, preprocess_data, split_data
+from model import build_model, scale_data, compile_model, train_model
+
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 # Load data
-data = load_data('AgeClassified.csv')
+data = load_data('merged.csv')
 
 # Preprocess data
 X, y = preprocess_data(data)
